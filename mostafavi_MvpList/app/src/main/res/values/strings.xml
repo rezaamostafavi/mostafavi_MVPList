@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mostafavi_MvpList</string>
+    <string name="profile">Profile</string>
+    <string name="users">Users</string>
+</resources>
