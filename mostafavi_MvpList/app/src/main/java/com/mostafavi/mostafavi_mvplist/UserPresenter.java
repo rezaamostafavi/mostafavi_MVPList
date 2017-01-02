@@ -1,5 +1,7 @@
 package com.mostafavi.mostafavi_mvplist;
 
+import android.content.Context;
+
 import com.hannesdorfmann.mosby.mvp.MvpBasePresenter;
 import com.hannesdorfmann.mosby.mvp.MvpPresenter;
 
@@ -8,7 +10,7 @@ import com.hannesdorfmann.mosby.mvp.MvpPresenter;
  */
 public class UserPresenter extends MvpBasePresenter<UsersView> {
 
-    public void loadUsers(final boolean pullToRefresh){
+    public void loadUsers(Context context,final boolean pullToRefresh){
 
         getView().showLoading(pullToRefresh);
 
