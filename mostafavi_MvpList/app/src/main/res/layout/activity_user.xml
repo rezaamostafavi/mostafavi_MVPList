@@ -13,15 +13,16 @@
         <ImageView
             android:id="@+id/ivCover"
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="@dimen/coverHeight"
+            android:scaleType="centerCrop"
             android:background="#ddd" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/ivAvatar"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
+            android:layout_width="@dimen/avatarSize"
+            android:layout_height="@dimen/avatarSize"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="@dimen/avatarMarginTop"
             android:src="@drawable/ic_avatar"
             app:civ_border_color="@android:color/white"
             app:civ_border_width="@dimen/small_size" />

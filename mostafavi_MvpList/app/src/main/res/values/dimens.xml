@@ -16,4 +16,8 @@
     <dimen name="mini_small_text_size">12sp</dimen>
     <dimen name="nano_small_text_size">10sp</dimen>
 
+    <dimen name="coverHeight">140dp</dimen>
+    <dimen name="avatarSize">130dp</dimen>
+    <dimen name="avatarMarginTop">70dp</dimen>
+
 </resources>
